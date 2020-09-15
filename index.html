@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>My Slider</title>
+		<link rel="stylesheet" href="css/css.css" />
+	</head>
+	<body>
+		<div class="slidercontainer">
+			<!--slidercontainer-->
+
+			<!--Slide Images-->
+			<div class="showSlide slidein-right">
+				<img src="images/img1.jpg" />
+				<div class="content">Slide1 heading</div>
+			</div>
+
+			<div class="showSlide slidein-right">
+				<img src="images/img2.jpg" />
+				<div class="content">Slide2 heading</div>
+			</div>
+
+			<div class="showSlide slidein-right">
+				<img src="images/img3.jpg" />
+				<div class="content">Slide3 heading</div>
+			</div>
+
+			<div class="showSlide slidein-right">
+				<img src="images/img4.jpg" />
+				<div class="content">Slide4 heading</div>
+			</div>
+
+			<!-- Navigation arrows -->
+			<a class="left" onclick="nextSlide(-1);">❮</a>
+			<a class="right" onclick="nextSlide(1);">❯</a>
+
+			<!--End slidercontainer-->
+		</div>
+
+		<div id="dot-box" style="text-align: center"></div>
+
+		<script src="js/main.js"></script>
+	</body>
+</html>
