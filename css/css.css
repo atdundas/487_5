@@ -63,7 +63,7 @@ body {
 }
 
 /* Fading animation */
-/*.slidein-right {
+.slidein-right {
 	-webkit-animation-name: slidein-right;
 	-webkit-animation-duration: 1.5s;
 	animation-name: slidein-right;
@@ -115,7 +115,7 @@ body {
 	to {
 		transform: translateX(0%);
 	}
-}*/
+}
 
 @media screen and (max-width: 699px) {
 	.content {
